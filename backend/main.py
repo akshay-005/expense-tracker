@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Form
 from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
-from dotenv import load_model, load_dotenv
+from dotenv import load_dotenv
 import re
 import os
 
